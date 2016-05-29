@@ -4,13 +4,12 @@ package miinaharava;
 import java.awt.Dimension;
 import java.awt.GridLayout;
 import javax.swing.JFrame;
-import javax.swing.JTextArea;
 import javax.swing.WindowConstants;
 
 public class Graafinenkayttoliittyma implements Runnable {
 
     private JFrame frame;
-    private Logiikka logiikka;
+    private final Logiikka logiikka;
     private Karttanakyma kartta;
     
     public Graafinenkayttoliittyma(Logiikka logiikka){
